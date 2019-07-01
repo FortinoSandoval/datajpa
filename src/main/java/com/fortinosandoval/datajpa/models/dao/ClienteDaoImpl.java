@@ -10,7 +10,7 @@ import com.fortinosandoval.datajpa.models.entity.Cliente;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-@Repository
+@Repository("clienteDaoJPA")
 public class ClienteDaoImpl implements IClienteDao {
 
   @PersistenceContext
