@@ -60,6 +60,14 @@ public class Cliente implements Serializable {
     this.email = email;
   }
 
+  public Date getCreateAt() {
+    return this.createAt;
+  }
+
+  public void setCreateAt(Date createAt) {
+    this.createAt = createAt;
+  }
+
   private static final long serialVersionUID = 1L;
 
   public static long getSerialVerionUID() {
